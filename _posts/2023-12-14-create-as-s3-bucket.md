@@ -15,11 +15,11 @@ An S3 bucket is a cloud storage solution offered by Amazon Web Services (AWS). I
 
 A capability of S3 is its website hosting feature, where you can host a static website by simply enabling the optional static website hosting feature on your S3 bucket. You would select the desired html file stored in your S3 bucket that will serve as your webpage content. 
 
-Amazon S3 is available for a pretty low rate while scaling to handle millions of users. It is also available under the AWS Free Tier.
+Amazon S3 is available for a pretty low rate while scaling to handle millions of users. It is also available under the AWS Free Tier within a certain capacity.
 <!-- Enter link to enable static hosting feature here -->
 ### Prerequisites:
 **1. AWS Account**
-To get started, you will need an AWS account. If you don't have one yet, don't worry, it's simple and free to create one on aws.amazon.com. You _will_ need a valid credit card for identity verification which will be charged for any service charges you incur.
+To get started, you will need an AWS account. If you don't have one yet, don't worry, it's simple and free to create one on aws.amazon.com. You _will_ need a valid credit card for identity verification. This will also be the card that will be charged if you insure any service charges.
 <!-- I can walk through creating one.
 Enter link to guide on how to Create an AWS account blog post or link to an outside source.
 -->
@@ -66,7 +66,7 @@ One thing to keep in mind is that you will be charged for the storage you use in
 5. Choose a file to upload, and then choose **Open.**
 6. Choose **Upload**.
 
-There! You have successfully created an S3 bucket and uploaded an object(s) to your bucket. Well done.
+There. You have successfully created an S3 bucket and uploaded an object(s) to your bucket! Well done.
 
 <!-- 
 Other posts you may find helpful:
