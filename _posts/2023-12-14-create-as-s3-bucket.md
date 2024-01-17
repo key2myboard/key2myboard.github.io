@@ -4,7 +4,7 @@ title: Create an S3 Bucket
 subtitle: Amazon Simple Storage Service
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
-tags: [cloud computing, aws, storage]
+tags: [cloud computing, aws, storage, s3]
 comments: true
 ---
 
