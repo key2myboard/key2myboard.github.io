@@ -14,7 +14,6 @@ In case you wanted to know, a _static_ website is basically an individual webpag
 
 Maybe I made it sound a little boring? Well, think again! There’s plenty you can make happen when HTML, CSS, and Javascript are involved. Plus, since all the content is fixed, static websites typically load very quickly because there’s no need to fetch large data from a database, or generate pages on the fly. That’s cool!
 
-
 By using the static website hosting feature on an S3 bucket, I hosted a simple website for zero dollars, leveraging AWS’ “free tier”. And you can too!
 
 Do I sound like an ad? That’s just honest excitement.
