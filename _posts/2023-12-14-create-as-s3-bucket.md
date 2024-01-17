@@ -13,15 +13,25 @@ So you want to use Amazon Web Services’ Amazon S3 cloud storage solution to st
 ## What is an S3 bucket?
 An S3 bucket is a cloud storage solution offered by Amazon Web Services (AWS). It allows you to store and retrieve files or objects from anywhere in the world. You can think of it as a virtual hard drive in the cloud.
 
-A capability of S3 is its website hosting feature, where you can host static websites by simply enabling the static website hosting feature, and uploading your desired html file. All for a low rate while scaling to handle millions of users.
+A capability of S3 is its website hosting feature, where you can host a static website by simply enabling the optional static website hosting feature on your S3 bucket. You would select the desired html file stored in your S3 bucket that will serve as your webpage content. 
+
+Amazon S3 is available for a pretty low rate while scaling to handle millions of users. It is also available under the AWS Free Tier.
 <!-- Enter link to enable static hosting feature here -->
-### Here are the simple steps:
+### Prerequisites:
+**1. AWS Account**
+To get started, you will need an AWS account. If you don't have one yet, don't worry, it's simple and free to create one on aws.amazon.com. You _will_ need a valid credit card for identity verification which will be charged for any service charges you incur.
+<!-- I can walk through creating one.
+Enter link to guide on how to Create an AWS account blog post or link to an outside source.
+-->
+
+### Here are the simple steps to create an Amazon S3 Bucket:
 
 ### 1. Navigate to S3
-To get started, you'll need an AWS account. If you don't have one yet, don't worry, it's simple and free to create one.
-<!-- Enter link to guide on creating an AWS account blog post or outside source -->
+Once you're logged in, navigate to the S3 service. You can do this from the waffle button on the top left.
 
-Once you're logged in, navigate to the S3 service. You can do this from the waffle button on the top left. Scroll down and click on "Storage", then on "S3".
+1. Click waffle button.
+2. Scroll down and click on "Storage"
+3. Then on "S3".
 
 ![Navigate to S3 on AWS](/assets/img/navigate-to-s3.png)
 
@@ -30,7 +40,7 @@ Once you're logged in, navigate to the S3 service. You can do this from the waff
 -->
 
 ### 2. Create the S3 Bucket
-Now let’s look at the steps to create the bucket.
+Now let’s walk throught the steps to create the bucket.
 
 1. **Click on the "Create Bucket" button**. 
 2. **Give your bucket a unique name**. (If you plan to host this bucket as a static website, consider using a name you’d like your url to include.)
@@ -47,9 +57,9 @@ Now let’s look at the steps to create the bucket.
 ### 3. Upload Your Files
 Now that you've created your S3 bucket, you can start uploading your files.
 
-One thing to keep in mind is that you'll be charged for the storage you use in your S3 bucket. The pricing varies depending on the region you choose and the amount of data you store. You can check the AWS website for more [information on Amazon S3 pricing](https://aws.amazon.com/s3/pricing/). Consider also exploring [AWS Free Tiers page](https://aws.amazon.com/free/) to see how you can take advantage of S3 without incurring any charges. For instance, you may note standard S3 storage of up to 5GB is free for new users for the first 12 months.
+One thing to keep in mind is that you will be charged for the storage you use in your S3 bucket. The pricing varies based on the the amount of data you store and depending on the region you choose. You can check the AWS website for more [information on Amazon S3 pricing](https://aws.amazon.com/s3/pricing/). Also consider exploring [AWS Free Tiers page](https://aws.amazon.com/free/) to see how you can take advantage of S3 without incurring any charges. For instance, you may note standard S3 storage of up to 5GB is free for new users for the first 12 months.
 
-To upload an object to a bucket:
+**To upload an object to a bucket:**
 1. In the **Buckets** list, choose the name of the bucket that you want to upload your object to.
 3. On the **Objects** tab for your bucket, choose **Upload**.
 4. Under **Files and folders**, choose **Add files**.
@@ -57,3 +67,10 @@ To upload an object to a bucket:
 6. Choose **Upload**.
 
 There! You have successfully created an S3 bucket and uploaded an object(s) to your bucket. Well done.
+
+<!-- 
+Other posts you may find helpful:
+Configure You S3 Bucket for Website Hosting.
+Serve HTTPS Requests from your S3 Bucket.
+
+-->
