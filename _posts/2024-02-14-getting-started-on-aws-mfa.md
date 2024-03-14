@@ -46,9 +46,13 @@ K! Grab your phone and follow me!
 <!-- image set-MFA-device-AWS-->
 
 8. Back on your phone click the plus (+) button on the bottom right of open Google Authenticator app screen. Select “Scan a QR code”.
-![Add account to auth app](/assets/img/google-auth-app-add.PNG)
-<!-- images google auth app add & scan (**2 images**)-->
+<!-- ![Add account to auth app](/assets/img/google-auth-app-add.PNG)
+-->
+<img src="/assets/img/google-auth-app-add.PNG" alt="Screenshot of Click + button" width="45%" height="45%"> 
+<img src="/assets/img/google-auth-app-scan-QR.PNG" alt="Screenshot of Scan QR code" width="45%" height="45%">
+<!--
 ![Scan QR with auth app](/assets/img/google-auth-app-scan-QR.PNG)
+-->
 9. Scan the QR code displayed on your console. You will see Google Authenticator app generate a code which will be regenerated after some seconds.
 10. At #3 on your console, enter two consecutive codes (wait a few seconds for a following code to be generated).
 11. Click “Add MFA” and you’re done!
