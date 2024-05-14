@@ -10,7 +10,7 @@ comments: true
 
 Recently it came to my attention that my MacBook, which I received secondhand, still had a volume that belonged to its previous user. Each time I turned my laptop on and logged in, I would receive a message prompt asking that I enter the password to the the user’s Macintosh HD - Data volume in order to unlock it.
 
-[image]
+![Unlock disk prompt](/assets/img/fix-mac-hd-data-prompt.png)
 
 I did some investigating and here's what I found that helped me resolve this persistent error message.
 
@@ -26,18 +26,18 @@ To see this I you can visit Disk Utility on your mac in the Utilities folder in 
 3. Scroll down to locate the “Utilities” folder, click to open.
 4. Locate Disk Utility, click to open.
 
-[image]
+![Locate disk utility app](/assets/img/fix-mac-hd-data-find-disk-utility.png)
 
 There you will be able to visualize the volumes hiarchy.
 
-[image]
+![Disk Utility app](/assets/img/fix-mac-hd-data-see-disk-utility.png)
 
 Here you notice the second Macintosh HD - Data greyed out. Also notice it’s not mounted.
 
 ## What was this volume doing on my laptop?
 In my situation, there was an HD Data volume that remained on my mac from the previous owner that was mistakenly left behind when they attempted to clear it out for a new owner. I didn’t have access to the volume, as it was safely locked behind their login password, but it was taking up storage space.
 
-[image]
+![View laptop storage bar](/assets/img/fix-mac-hd-data-see-storage.png)
 See charted here the Other Volumes greyed out. Navigate from Apple logo > System Settings > General > Storage
 
 ## How to delete the unwanted volume
@@ -56,11 +56,11 @@ Once you’ve identified to Data volume you wish to delete, right click on it an
 
 <!-- Include another way to ensure proper volume by compairing storage amount -->
 
-[image]
+![Delete data volume dropdown menu](/assets/img/fix-mac-hd-data-erase-menu.png)
 
 The previous owner's data will be deleted, resolving the password prompt from popping up and freeing up your storage.
 
-[image]
+![View laptop storage bar after volume deletion](/assets/img/fix-mac-hd-data-after-storage.png)
 Storage space recovered.
 
 ## How to properly reset your Mac to prevent this issue
@@ -69,4 +69,4 @@ Now, I’m sure you’re curious to know how to properly reset a computer, and p
 
 To erase your Mac correctly, pay attention that when you select either "Macintosh HD" or "Macintosh HD - Data", click Erase, you then select “**Erase Volume Group**”. This erases and deletes the linked data volume, and then erases the system volume so that you can have a clean slate and then reinstall macOS.
 
-More info here https://support.apple.com/en-us/HT201065
+More info here [https://support.apple.com/en-us/HT201065](https://support.apple.com/en-us/HT201065)
